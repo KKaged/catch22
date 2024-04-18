@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="border-4 border-b-8 border-black flex flex-col sm:flex-row p-7 justify-between">
+    <footer className="border-4 border-b-8 border-black flex flex-col sm:flex-row p-8 justify-between">
       <div className="mb-4 sm:mb-0">
         <p className="text-3xl sm:text-lg font-bold">Let's Talk!</p>
       </div>
