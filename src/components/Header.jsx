@@ -1,10 +1,13 @@
+import { Link } from "react-router-dom";
 import logo from "../assets/CATCH22 v2.png";
 
 function Header() {
   return (
     <div className="h-32 px-6 border-4 border-black flex flex-row justify-between items-center">
       <div>
-        <img className="h-auto" src={logo} alt="logo" />
+        <Link to={"/"}>
+          <img className="h-16" src={logo} alt="logo" />
+        </Link>
       </div>
       <div>
         <p className="w-52 text-right text-xl font-medium tracking-wide leading-7">

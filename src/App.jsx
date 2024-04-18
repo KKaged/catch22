@@ -1,6 +1,6 @@
+import { Link } from "react-router-dom";
 import "./App.css";
-import Header from "./components/Header";
-import HeaderRight from "./components/HeaderRight";
+
 import Nav from "./components/Nav";
 
 function App() {
@@ -8,18 +8,22 @@ function App() {
     {
       title: "Services",
       style: " bg-violet-400",
+      page: "/services/",
     },
     {
       title: "About Us",
       style: " bg-rose-400",
+      page: "/about-us/",
     },
     {
       title: "Contact",
       style: " bg-cyan-400",
+      page: "/contact/",
     },
     {
       title: "Our Mission",
       style: " bg-yellow-400",
+      page: "/our-mission/",
     },
   ];
 
@@ -32,9 +36,12 @@ function App() {
             key={index}
             className={`border-4 border-black flex justify-center items-center${title.style}`}
           >
-            <p className="text-4xl font-bold text-gray-900 p-28">
+            <Link
+              className="text-4xl font-bold text-gray-900 p-28"
+              to={`${title.page}`}
+            >
               {title.title}
-            </p>
+            </Link>
           </div>
         ))}
       </div>
