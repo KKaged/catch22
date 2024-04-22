@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/CATCH22 v2.png";
 
-function Header() {
+function Header({ children }) {
   return (
     <div className="h-32 px-6 border-4 border-black border-b-0 flex flex-col md:flex-row justify-between items-center">
       <div>
@@ -11,6 +11,7 @@ function Header() {
       </div>
       <div className="md:w-52">
         <p className="text-center md:text-right text-xl font-medium tracking-wide leading-7">
+          {children}
           Catch22 is an agency for startups in{" "}
           <span className="font-bold"> Japan</span>
         </p>
