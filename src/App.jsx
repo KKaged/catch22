@@ -23,7 +23,7 @@ function App() {
               <span className="font-bold">Japan</span>
             </>
           ) : (
-            <>Catch22はスタートアップのためのエージェンシーです</>
+            <></>
           )
         }
         rightChildren={
@@ -34,7 +34,9 @@ function App() {
               </p>
               <p className="text-xl font-medium tracking-wide leading-7">
                 for more information{" "}
-                <span className="font-bold">contact us</span>
+                <Link to={"/contact/"}>
+                  <span className="font-bold">contact us</span>
+                </Link>
               </p>
             </>
           ) : (
