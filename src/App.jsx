@@ -6,6 +6,7 @@ import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Faq from "./components/Faq";
 import Features from "./components/Features";
+import Why from "./components/Why";
 
 function App() {
   const [language, setLanguage] = useState("EN");
@@ -18,6 +19,7 @@ function App() {
     <>
       <Nav />
       <Hero />
+      <Why />
       <Features />
       <Faq />
     </>
