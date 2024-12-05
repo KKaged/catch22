@@ -11,7 +11,7 @@ export default function Footer() {
           <img src={logo} className="h-8" alt="Catch22 Logo" />
         </a>
         <p class="my-6 text-gray-500">
-          Marketing for the businesses of tomorrow, today.
+          Marketing for the businesses of tomorrow, today
         </p>
 
         <span class="text-sm text-gray-500 sm:text-center">
