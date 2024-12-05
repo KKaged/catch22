@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 import { Link } from "react-router-dom";
 
@@ -42,6 +43,7 @@ function Services() {
           </Link>
         </p>
       </section>
+      <Footer />
     </>
   );
 }

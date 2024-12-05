@@ -1,8 +1,8 @@
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
-import { Input, Textarea } from "@nextui-org/input";
 import { User, Mail, MessageSquare, Phone } from "lucide-react";
 import Nav from "../components/Nav";
+import Footer from "../components/Footer";
 
 export default function Contact() {
   const form = useRef(null);
@@ -54,16 +54,19 @@ export default function Contact() {
                 >
                   Your Name
                 </label>
-                <Input
-                  variant="underlined"
-                  isRequired
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="Your Name"
-                  startContent={<User color="rgb(78,101,122)" />}
-                  className="w-full p-2.5 text-sm text-gray-900  border border-gray-300 rounded-lg shadow-sm focus:ring-primary-500 focus:border-primary-500"
-                />
+                <div className="relative">
+                  <span className="absolute left-2 top-1/2 transform -translate-y-1/2 text-gray-500">
+                    <User color="rgb(78,101,122)" />
+                  </span>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Your Name"
+                    required
+                    className="w-full pl-10 pr-2.5 py-2 text-sm text-gray-900 border border-gray-300 rounded-lg shadow-sm focus:ring-primary-500 focus:border-primary-500"
+                  />
+                </div>
               </div>
 
               <div className="w-full lg:w-1/2">
@@ -73,16 +76,19 @@ export default function Contact() {
                 >
                   Your Email
                 </label>
-                <Input
-                  variant="underlined"
-                  isRequired
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="Your Email"
-                  startContent={<Mail color="rgb(78,101,122)" />}
-                  className="w-full p-2.5 text-sm text-gray-900  border border-gray-300 rounded-lg shadow-sm focus:ring-primary-500 focus:border-primary-500"
-                />
+                <div className="relative">
+                  <span className="absolute left-2 top-1/2 transform -translate-y-1/2 text-gray-500">
+                    <Mail color="rgb(78,101,122)" />
+                  </span>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Your Email"
+                    required
+                    className="w-full pl-10 pr-2.5 py-2 text-sm text-gray-900 border border-gray-300 rounded-lg shadow-sm focus:ring-primary-500 focus:border-primary-500"
+                  />
+                </div>
               </div>
             </div>
 
@@ -93,16 +99,19 @@ export default function Contact() {
               >
                 Your Phone Number
               </label>
-              <Input
-                variant="underlined"
-                isRequired
-                type="tel"
-                id="phone"
-                name="phone"
-                placeholder="Your Phone Number"
-                startContent={<Phone color="rgb(78,101,122)" />}
-                className="w-full p-2.5 text-sm text-gray-900  border border-gray-300 rounded-lg shadow-sm focus:ring-primary-500 focus:border-primary-500"
-              />
+              <div className="relative">
+                <span className="absolute left-2 top-1/2 transform -translate-y-1/2 text-gray-500">
+                  <Phone color="rgb(78,101,122)" />
+                </span>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="Your Phone Number"
+                  required
+                  className="w-full pl-10 pr-2.5 py-2 text-sm text-gray-900 border border-gray-300 rounded-lg shadow-sm focus:ring-primary-500 focus:border-primary-500"
+                />
+              </div>
             </div>
 
             <div>
@@ -112,27 +121,31 @@ export default function Contact() {
               >
                 Your Message
               </label>
-              <Textarea
-                variant="underlined"
-                isRequired
-                id="message"
-                name="message"
-                placeholder="Your Message"
-                startContent={<MessageSquare color="rgb(78,101,122)" />}
-                className="w-full p-2.5 text-sm text-gray-900  border border-gray-300 rounded-lg shadow-sm focus:ring-primary-500 focus:border-primary-500"
-                rows="6"
-              />
+              <div className="relative">
+                <span className="absolute left-2 top-1/2 transform -translate-y-1/2 text-gray-500">
+                  <MessageSquare color="rgb(78,101,122)" />
+                </span>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Your Message"
+                  required
+                  rows="6"
+                  className="w-full pl-10 pr-2.5 py-2 text-sm text-gray-900 border border-gray-300 rounded-lg shadow-sm focus:ring-primary-500 focus:border-primary-500"
+                />
+              </div>
             </div>
 
             <button
               type="submit"
-              className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300"
+              className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-blue-700 sm:w-fit hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-primary-300"
             >
               Send Message
             </button>
           </form>
         </div>
       </section>
+      <Footer />
     </>
   );
 }

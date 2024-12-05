@@ -1,4 +1,5 @@
 import Nav from "../components/Nav";
+import Footer from "../components/Footer";
 
 function AboutUs() {
   return (
@@ -65,6 +66,7 @@ function AboutUs() {
           </p>
         </section>
       </div>
+      <Footer />
     </>
   );
 }
