@@ -2,17 +2,17 @@ export default function Hero() {
   return (
     <header className="bg-white">
       <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
-        <a
+        {/* <a
           href="https://www.lingo-academy.org/"
           className="animate-bounce inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full hover:bg-gray-200"
           role="alert"
-          aria-label="New project launch link"
+          aria-label="New service launch link"
         >
           <span className="text-xs bg-primary-600 rounded-full text-blue-700 px-4 py-1.5 mr-3">
             New
           </span>
           <span className="text-sm font-medium">
-            Discover our latest MVP launch for a startup!
+            Discover our latest Social Media Growth Strategy!
           </span>
           <svg
             className="ml-2 w-5 h-5"
@@ -26,23 +26,24 @@ export default function Hero() {
               clipRule="evenodd"
             ></path>
           </svg>
-        </a>
+        </a> */}
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
-          Bringing Your MVP to Life
+          Transform Your Business
         </h1>
         <span className="underline decoration-blue-600 mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
-          In Just One Month
+          Into a Revenue Machine
         </span>
         <p className="mb-8 pt-4 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48">
-          As a dedicated startup agency, we specialize in MVP and website
-          development to transform ideas into valuable products, empowering
-          businesses from concept to launch.
+          As an upcoming Marketing Agency, we specialize in creating customized
+          strategies, content creation, and ad management to help businesses
+          reach their audience and grow their brand online.
         </p>
+        {/* Uncomment the buttons below if you want them */}
         {/* <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <a
             href="#services"
             className="inline-flex text-black justify-center items-center py-3 px-5 text-base font-medium text-center rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300"
-            aria-label="Learn more about our MVP services"
+            aria-label="Learn more about our SMMA services"
           >
             Learn more
             <svg
@@ -61,7 +62,7 @@ export default function Hero() {
           <a
             href="#demo"
             className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100"
-            aria-label="Watch demo of our MVP process"
+            aria-label="Watch demo of our SMMA services"
           >
             <svg
               className="mr-2 -ml-1 w-5 h-5"

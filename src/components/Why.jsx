@@ -5,18 +5,18 @@ export default function Why() {
         <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
           <div className="font-light text-gray-500 sm:text-lg">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">
-              We Don’t Just Build Products, We Build MVPs That Matter
+              We Don’t Just Run Campaigns, We Build Strategies That Deliver
             </h2>
             <p className="mb-4">
-              At our MVP agency, we focus on building lean, effective, and
-              user-centered MVPs that allow you to quickly test your ideas,
-              validate them with real users, and iterate based on feedback.
+              At Catch22, we focus on creating tailored strategies that drive
+              real engagement, increase brand awareness, and convert followers
+              into loyal customers.
             </p>
             <p>
-              With a team of experienced strategists, designers, and developers,
-              we ensure that every product we build aligns with your vision
-              while keeping scope and timeline in check. We help you move fast
-              without compromising quality.
+              With a team of skilled marketers, designers, and content creators,
+              we ensure every campaign aligns with your brand's goals. Our
+              data-driven approach helps you maximize ROI while staying ahead in
+              the competitive digital landscape.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-4 mt-8">

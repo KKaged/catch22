@@ -37,10 +37,10 @@ function Nav() {
               </li>
               <li>
                 <Link
-                  to="/about"
+                  to="/about-us/"
                   className="py-2 px-3 text-gray-900 hover:text-blue-700"
                 >
-                  About
+                  About Us
                 </Link>
               </li>
               <li>
@@ -103,11 +103,11 @@ function Nav() {
             </li>
             <li>
               <Link
-                to="/about"
+                to="/about-us/"
                 className="block py-2 px-4 text-gray-900 hover:text-blue-700"
                 onClick={() => setIsMenuOpen(false)}
               >
-                About
+                About Us
               </Link>
             </li>
             <li>

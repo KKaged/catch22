@@ -4,12 +4,12 @@ export default function Features() {
       <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <div className="max-w-screen-md mb-8 lg:mb-16">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">
-            Tailored Solutions for Your Business Needs
+            Comprehensive Marketing Solutions for Your Brand
           </h2>
           <p className="text-gray-500 sm:text-xl">
-            Whether you're building your MVP, launching a website, or managing a
-            team of engineers, we offer the tools and expertise to bring your
-            ideas to life efficiently and effectively.
+            From strategy to execution, we provide tailored solutions to grow
+            your online presence, boost engagement, and drive conversions for
+            your business.
           </p>
         </div>
         <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
@@ -29,12 +29,11 @@ export default function Features() {
               </svg>
             </div>
             <h3 className="mb-2 text-xl font-bold text-gray-900">
-              MVP Development
+              Social Media Management
             </h3>
             <p className="text-gray-500">
-              Quickly validate your ideas with a scalable MVP. We handle the
-              entire development process from concept to launch, so you can
-              focus on growth.
+              Enhance your brand presence with expertly managed social media
+              campaigns that foster engagement and attract your target audience.
             </p>
           </div>
           <div>
@@ -49,12 +48,11 @@ export default function Features() {
               </svg>
             </div>
             <h3 className="mb-2 text-xl font-bold text-gray-900">
-              Website Development
+              Paid Advertising
             </h3>
             <p className="text-gray-500">
-              From static sites to dynamic platforms, we design and develop
-              websites that are fast, responsive, and scalable to fit your
-              business needs.
+              Drive traffic and conversions with data-driven ad campaigns on
+              platforms like Facebook, Instagram, and Google.
             </p>
           </div>
           <div>
@@ -74,12 +72,11 @@ export default function Features() {
               </svg>
             </div>
             <h3 className="mb-2 text-xl font-bold text-gray-900">
-              Engineer Dispatch
+              Content Creation
             </h3>
             <p className="text-gray-500">
-              We connect you with skilled engineers for your project needs. Our
-              flexible dispatch model ensures you get the right talent at the
-              right time.
+              Captivate your audience with high-quality, engaging content
+              tailored to your brand's voice and values.
             </p>
           </div>
         </div>
