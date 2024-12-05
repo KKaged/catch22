@@ -1,4 +1,3 @@
-import { Button } from "@nextui-org/button";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 import { Input, Textarea } from "@nextui-org/input";
@@ -125,14 +124,12 @@ export default function Contact() {
               />
             </div>
 
-            <Button
-              size="lg"
+            <button
               type="submit"
-              variant="shadow"
               className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300"
             >
               Send Message
-            </Button>
+            </button>
           </form>
         </div>
       </section>
