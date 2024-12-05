@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import Faq from "./components/Faq";
 import Features from "./components/Features";
 import Why from "./components/Why";
+import Footer from "./components/Footer";
 
 function App() {
   const [language, setLanguage] = useState("EN");
@@ -22,6 +23,7 @@ function App() {
       <Why />
       <Features />
       <Faq />
+      <Footer />
     </>
   );
 }
